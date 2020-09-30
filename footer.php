@@ -13,7 +13,7 @@
 			</ul>
 		</div>
 		<div>
-			<ul id="footer-services-list">
+			<!-- <ul id="footer-services-list">
 				<li>Mowing</li>
 				<li>Spring/Fall Cleanups</li>
 				<li>Mulch</li>
@@ -21,7 +21,7 @@
 				<li>Planting</li>
 				<li>Snow Plowing</li>
 			</ul>
-		</div>
+		</div> -->
 		<div>
 			<a href="https://www.facebook.com/VikingHillLandscapingLLC/"><p>Like us on Facebook!</p><br>
 			<img src="images/logos/facebook_logo.png" alt="Facebook Logo" id="facebook-logo" /></a>

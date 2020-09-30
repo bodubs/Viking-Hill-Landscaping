@@ -3,7 +3,7 @@ include 'top.php';
 ?>
 
 <section class="showcase">
-	<h1>A happy lawn is a happy home</h1>
+	<h1>Efficient. Reliable. Dano.</h1>
 </section>
 
 <div id="services-section">
@@ -13,7 +13,7 @@ include 'top.php';
 			<ul>
 				<li>Mowing</li>
 				<li>Spring/Fall Cleanups</li>
-				<li>Mulch</li>
+				<li>Mulching</li>
 			</ul>
 		</div>
 		<div>

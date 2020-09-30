@@ -28,7 +28,7 @@
 
 			<nav class="right-nav">
 				<ul>
-					<li><a href="">Gallery</a></li>
+					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contact.php">Contact</a></li>
 					<li><a class="fb-logo"><i class="fa fa-facebook-square"></i></a></li>
 				</ul>

@@ -66,6 +66,8 @@ header {
 
 	box-shadow: 0px 8px 8px -8px rgba(0,0,0,0.75);
 }
+
+
 .logo-container{
 	position: absolute;
 	top: 0px;
@@ -82,16 +84,12 @@ header {
 	content: "";
 	position: absolute;
 	top: 90px;
-	/* top: 98px; */
-	/* height: 75px; */
 	height: 65px;
 	width: 100%;
 	background-color: #ffffff;
 	box-shadow: 0px 9px 13px -8px rgba(0,0,0,0.75);
 	overflow: hidden;
 }
-
-
 
 #vh-logo {
 	width: 200px;
@@ -116,6 +114,10 @@ nav ul li a {
 	color: #426DA9;
 }
 
+nav ul li a:hover {
+	color: #000000;
+}
+
 nav ul li {
 	display: inline;
 	padding-left: 30px;
@@ -133,8 +135,8 @@ footer {
 	height: 175px;
 	clear: both;
 	display: flex;
-	flex: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 0 60px;
 }
 
 footer p {
@@ -207,10 +209,10 @@ footer ul {
 	display: flex;
 	justify-content: space-between;
 	font-family: Avenir;
-	font-size: 18px;
+	font-size: 22px;
 	color: #426DA9;
 	text-align: left;
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -283,6 +285,72 @@ footer ul {
 	border: solid black;
 	float: right;
 }
+
+/* ------------------ Gallery Page -------------------- */
+.gallery{
+	width: 100%;
+
+}
+
+
+/* Carousel */
+.carousel-container{
+	padding: 100px;
+}
+
+.carousel{
+	position: relative;
+	width: 100%;
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+
+}
+
+.slide{
+	display: none;
+	height: 100%;
+}
+
+.slide img{
+	height: 100%;
+	position: relative;
+	object-fit: cover;
+	display: block;
+	margin: auto;
+}
+
+.carousel-arrow{
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	color: #ffffff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 100%;
+}
+
+.carousel-arrow:hover{
+	background-color: rgba(168,168,168,.3);
+
+}
+
+#arrow-right{
+	right: 50px;
+}
+
+#arrow-left{
+	left: 50px;
+}
+
+
 
 /* ------------------ Contact Page -------------------- */
 
