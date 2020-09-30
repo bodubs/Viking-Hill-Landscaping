@@ -61,7 +61,7 @@ header {
 	margin-top: 35px;
 	justify-content: space-between;
 	align-items: center;
-	padding: 40px 60px;
+	padding: 50px 60px;
 	background-color: #ffffff;
 
 	box-shadow: 0px 8px 8px -8px rgba(0,0,0,0.75);
@@ -72,7 +72,7 @@ header {
 	position: absolute;
 	top: 0px;
 	left: 50%;
-	height: 98px;
+	height: 118px;
 	width: 220px;
 	transform: translate(-50%, 0);
 	background-color: #ffffff;
@@ -83,8 +83,8 @@ header {
 	z-index: -999;
 	content: "";
 	position: absolute;
-	top: 90px;
-	height: 65px;
+	top: 118px; 
+	height: 37px;
 	width: 100%;
 	background-color: #ffffff;
 	box-shadow: 0px 9px 13px -8px rgba(0,0,0,0.75);
@@ -104,7 +104,9 @@ header {
 }
 
 .fb-logo{
-	color: var(--secondary-color);
+	color: #3B5998;
+	font-size: 40px;
+	/* color: var(--secondary-color); */
 }
 
 nav ul li a {

@@ -30,7 +30,7 @@
 				<ul>
 					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contact.php">Contact</a></li>
-					<li><a class="fb-logo"><i class="fa fa-facebook-square"></i></a></li>
+					<!-- <li><a class="fb-logo"><i class="fab fa-facebook"></i></a></li> -->
 				</ul>
 			</nav>
 
