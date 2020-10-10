@@ -2,6 +2,8 @@
 include 'top.php';
 ?>
 
+<section class="about-sect">
+
 <div id="est-section">
 	<h2>Est.</h2>
 	<h1>2019</h1>
@@ -15,7 +17,7 @@ include 'top.php';
 
 	<p>Facilisis gravida neque convallis a cras. Sed vulputate mi sit amet mauris commodo. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. A cras semper auctor neque vitae tempus quam pellentesque nec. Sodales ut eu sem integer vitae justo. Amet volutpat consequat mauris nunc. Fames ac turpis egestas sed tempus urna et. Diam phasellus vestibulum lorem sed. Feugiat pretium nibh ipsum consequat nisl. Sit amet nulla facilisi morbi tempus iaculis. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Consequat nisl vel pretium lectus quam id leo in. Massa enim nec dui nunc. Risus ultricies tristique nulla aliquet enim tortor at auctor. Ultrices neque ornare aenean euismod elementum nisi.</p>
 </div>
-
+</section>
 <?php
 include 'footer.php';
 ?>

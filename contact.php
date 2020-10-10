@@ -29,6 +29,8 @@ $errorInputCSS = ' style="border: 1px solid red; border-radius: 3px; outline-col
 <!-- <div id="geese">
 	<h1 id="VH">Viking Hill Landscaping</h1>
 </div> -->
+<section class="contact-sect">
+
 <div id="contact-info-div">
 <ul id="contact-flex-container">
 	<li>
@@ -254,6 +256,8 @@ if ($dataEntered) { // IF SEND MESSAGE SUCCESSFULL
 
 </form>
 </div>
+
+</section>
 
 
 <?php

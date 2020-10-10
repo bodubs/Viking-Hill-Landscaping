@@ -258,6 +258,9 @@ footer ul {
 }
 /* ------------------ About Page -------------------- */
 
+.about-sect{
+	padding: 40px 0;
+}
 #est-section {
 	margin-top: 100px;
 	text-align: center;
@@ -369,6 +372,10 @@ footer ul {
 	margin-top: 35px;
 	color: white;
 	font-family: Luminari;
+}
+
+.contact-sect{
+	padding: 40px 0;
 }
 
 #contact-info-div {
