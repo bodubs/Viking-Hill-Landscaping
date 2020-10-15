@@ -8,7 +8,7 @@
 				<li><strong>Viking Hill Landscaping, LLC</strong></li>
 				<li>Ipswich, MA</li>
 				<li><br></li>
-				<li>VikingHillC@gmail.com</li>
+				<li>VikingHillLLC@gmail.com</li>
 				<li>978.807.8277</li>
 			</ul>
 		</div>

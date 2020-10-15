@@ -36,7 +36,7 @@ $errorInputCSS = ' style="border: 1px solid red; border-radius: 3px; outline-col
 	<li>
 		<div>
 			<img src="images/icons/location_icon.png" alt="Location Icon" class="contact-icons"/>
-			<p>2 Longspur Road<br>Ipswich, MA 01938</p>
+			<p>27 Hayward Street<br>Ipswich, MA 01938</p>
 		</div>
 	</li>
 	<li>
@@ -48,7 +48,7 @@ $errorInputCSS = ' style="border: 1px solid red; border-radius: 3px; outline-col
 	<li>
 		<div>
 			<img src="images/icons/email_icon.png" alt="Email Icon" class="contact-icons"/>
-			<p>VikingHillC@gmail.com</p>
+			<p>VikingHillLLC@gmail.com</p>
 		</div>
 	</li>
 	<li>

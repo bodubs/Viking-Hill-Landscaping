@@ -193,8 +193,25 @@ footer ul {
 
 .showcase h1{
 	color: #ffffff;
-	font-size: 60px;
+	font-size: 80px;
+	font-family: Snell Roundhand;
+	font-weight: bolder;
 }
+
+#location {
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#location h1 {
+	font-size: 40px;
+	text-align: center;
+	width: 65%;
+}
+
 #services-section {
 	padding: 40px;
 	text-align: center;

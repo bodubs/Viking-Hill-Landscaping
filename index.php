@@ -3,7 +3,11 @@ include 'top.php';
 ?>
 
 <section class="showcase">
-	<h1>Efficient. Reliable. Dano.</h1>
+	<h1>Good Guys. Local Guys.</h1>
+</section>
+
+<section id="location">
+	<h1>Located in Ipswich, MA, we provide our services around the Essex County area.</h1>
 </section>
 
 <div id="services-section">
