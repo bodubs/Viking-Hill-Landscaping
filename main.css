@@ -202,14 +202,25 @@ footer ul {
 	height: 80vh;
 	width: 100%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
+	flex: row wrap;
+	padding-top: 50px;
 }
 
 #location h1 {
 	font-size: 40px;
-	text-align: center;
-	width: 65%;
+	text-align: left;
+	width: 450px;
+	color: var(--secondary-color);
+	font-family: Avenir;
+}
+
+#location-text-div {
+	padding-top: 100px;
+}
+
+#location-div {
+	height: 375px;
 }
 
 #services-section {
