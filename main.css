@@ -294,6 +294,26 @@ footer ul {
 	text-align: center;
 }
 
+#about-info-container {
+	display: flex;
+	justify-content: space-around;
+	flex: row wrap;
+	text-align: center;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: var(--body-gray);
+}
+
+#about-info-container div:last-child {
+	border-right: none;
+}
+
+.about-info-card {
+	border-right: solid white;
+	color: var(--secondary-color);
+}
+
 #est-section h2 {
 	color: #426DA9;
 	font-size: 30px;
@@ -311,6 +331,86 @@ footer ul {
 	font-family: sans-serif;
 	margin-right: 10%;
 	margin-left: 10%;
+}
+
+#field-exp {
+	text-align: center;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: var(--secondary-color);
+	font-family: Avenir;
+	font-size: 36px;
+}
+
+.timeline {
+  	position: relative;
+  	max-width: 1200px;
+  	margin: 0 auto;
+}
+
+.timeline::after {
+  	content: '';
+  	position: absolute;
+  	width: 6px;
+  	background-color: var(--secondary-color);
+  	top: 0;
+  	bottom: 0;
+  	left: 50%;
+  	margin-left: -3px;
+}
+
+.timeline-container {
+  	padding: 10px 40px;
+  	position: relative;
+  	background-color: inherit;
+  	width: 50%;
+}
+
+.timeline-left {
+  	left: 0;
+}
+
+.timeline-right {
+	left: 50%;
+}
+
+.timeline-left::before {
+  	content: " ";
+  	height: 0;
+  	position: absolute;
+  	top: 22px;
+  	width: 0;
+  	z-index: 1;
+  	right: 30px;
+  	border: medium solid var(--main-color);
+  	border-width: 10px 0 10px 10px;
+  	border-color: transparent transparent transparent var(--main-color);
+}
+
+.timeline-right::before {
+  	content: " ";
+  	height: 0;
+  	position: absolute;
+  	top: 22px;
+  	width: 0;
+  	z-index: 1;
+  	left: 30px;
+  	border: medium solid var(--main-color);
+  	border-width: 10px 10px 10px 0;
+  	border-color: transparent var(--main-color) transparent transparent;
+}
+
+.timeline-right::after {
+  	left: -16px;
+}
+
+.timeline-event {
+  	padding: 20px 30px;
+  	background-color: var(--main-color);
+  	position: relative;
+  	border-radius: 6px;
+  	color: white;
 }
 
 #dano {
