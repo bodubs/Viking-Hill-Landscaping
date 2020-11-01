@@ -23,8 +23,9 @@
 			</ul>
 		</div> -->
 		<div>
-			<a href="https://www.facebook.com/VikingHillLandscapingLLC/"><p>Like us on Facebook!</p><br>
-			<img src="images/logos/facebook_logo.png" alt="Facebook Logo" id="facebook-logo" /></a>
+			<p>Follow Us on Social Media!</p><br>
+			<a href="https://www.facebook.com/VikingHillLandscapingLLC/"><img src="images/logos/facebook_logo.png" alt="Facebook Logo" class="social-logos" /></a>
+			<a href="https://www.linkedin.com/in/dane-tolstrup-72308519a/"><img src="images/logos/linkedin-logo.png" alt="LinkedIn Logo" class="social-logos"/></a>
 		</div>
 	</footer>
 	<!-- <script src="app.js"></script> -->

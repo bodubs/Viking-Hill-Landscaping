@@ -170,8 +170,9 @@ footer ul {
 	line-height: 1.5;
 }
 
-#facebook-logo {
+.social-logos {
 	height: 30px;
+	margin-right: 5px;
 }
 
 #footer-list > li {
