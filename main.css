@@ -205,7 +205,6 @@ footer ul {
 	display: flex;
 	justify-content: space-around;
 	flex: row wrap;
-	padding-top: 50px;
 }
 
 #location h1 {
@@ -218,6 +217,13 @@ footer ul {
 
 #location-text-div {
 	padding-top: 100px;
+	border-right: solid var(--body-gray);
+}
+
+#location-text-div::before {
+	z-index:-1;
+    transform: skewX(-20deg);
+    transform-origin:0 0;
 }
 
 #location-div {
