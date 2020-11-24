@@ -42,13 +42,13 @@ $errorInputCSS = ' style="border: 1px solid red; border-radius: 3px; outline-col
 	<li>
 		<div>
 			<img src="images/icons/phone_icon.png" alt="Phone Icon" class="contact-icons"/>
-			<p>+1 (978) 807-8277</p>
+			<p><a href="tel:978-807-8277">+1 (978) 807-8277</a></p>
 		</div>
 	</li>
 	<li>
 		<div>
 			<img src="images/icons/email_icon.png" alt="Email Icon" class="contact-icons"/>
-			<p>VikingHillLLC@gmail.com</p>
+			<p><a href="mailto:vikinghillllc@gmail.com">VikingHillLLC@gmail.com</a></p>
 		</div>
 	</li>
 	<li>

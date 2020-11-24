@@ -2,9 +2,28 @@
 include 'top.php';
 ?>
 
+
 <section class="about-sect">
 
-	<div id="about-info-container">
+	<div class="bio-container">
+		<div class="headshot-container">
+		</div>
+
+		<div class="bio-info-container">
+			<p>Viking Hill Landscaping is a full service landscaping company located in Ipswich, MA.
+			With over 15 years of combined experience, our crew is committed to providing our customers
+			with top notch service in any and all of the four seasons. We are fully insured and offer free 
+			estimates upon request. <a href="tel:978-807-8277"><strong>If you have a reason, call us this season!</strong></a>
+			</p>
+			<br>
+			<p>Viking Hill Landscaping was founded in 2019 and is owned and operated by Dane Tolstrup.
+			Dane has extensive experience as a landscaper and has worked on both residential and commercial properties.
+			He prides himself on his attential to detail and has a deep understanding of the art of landscaping.
+			He graduated from North Shore Community College with a degree in Horticulture.</p>
+		</div>
+	</div>
+
+	<!-- <div id="about-info-container">
 
 		<div class="about-info-card">
 			<h2>Est.</h2>
@@ -14,8 +33,13 @@ include 'top.php';
 			<h2>15+</h2>
 			<h1>Combined Years of Experience</h1>
 		</div>
-	</div>
+	</div> -->
 
+
+
+
+
+<!-- 
 	<h1 id="field-exp">Field Experience</h1>
 	<section class="timeline">
 		<div class="timeline-container timeline-left">
@@ -57,8 +81,12 @@ include 'top.php';
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 </section>
+
+
+
 <?php
+include 'contact-action.php';
 include 'footer.php';
 ?>

@@ -55,6 +55,10 @@ header {
 	list-style-type: none;
 }
 
+#header-ul li a {
+	color: #ffffff;
+}
+
 #logo-header-div {
 	position: relative;
 	display: flex;
@@ -294,7 +298,15 @@ footer ul {
 /* ------------------ About Page -------------------- */
 
 .about-sect{
-	padding: 40px 0;
+	padding: 100px;
+}
+
+.bio-info-container {
+	line-height: 1.6;
+}
+
+.bio-info-container a {
+	color: var(--secondary-color);
 }
 #est-section {
 	margin-top: 100px;
@@ -537,6 +549,7 @@ footer ul {
 
 #contact-flex-container li div a {
 	text-decoration: none;
+	color: #000000;
 }
 
 .contact-icons {

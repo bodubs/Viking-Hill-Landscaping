@@ -5,7 +5,7 @@
 		<header>
 			<ul id="header-ul">
 				<li>VikingHillLLC@gmail.com</li>
-				<li>978.807.8277</li>
+				<li><a href="tel:978-807-8277">978.807.8277</a></li>
 			</ul>
 		</header>
 

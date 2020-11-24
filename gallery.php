@@ -12,6 +12,12 @@ include "top.php"
             <div class="slide fade">
                 <img src="images/picture2.jpg" alt="">
             </div>
+            <div class="slide fade">
+                <img src="images/leaf-cleanup.jpeg" alt="Man is blowing leaves off of lawn">
+            </div>
+            <div class="slide fade">
+                <img src="images/leaf-cleanup2.jpeg" alt="">
+            </div>
             <div class="carousel-arrow" id="arrow-right"><i class="fas fa-chevron-right"></i></div>
         </div>  
 
@@ -49,5 +55,6 @@ include "top.php"
 </script>
 
 <?php
+include 'contact-action.php';
 include 'footer.php';
 ?>
