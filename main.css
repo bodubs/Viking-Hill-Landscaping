@@ -204,7 +204,6 @@ footer ul {
 }
 
 #location {
-	height: 80vh;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
@@ -213,7 +212,7 @@ footer ul {
 
 #location h1 {
 	font-size: 40px;
-	text-align: left;
+	text-align: center;
 	width: 450px;
 	color: var(--secondary-color);
 	font-family: Avenir;
@@ -221,17 +220,17 @@ footer ul {
 
 #location-text-div {
 	padding-top: 100px;
-	border-right: solid var(--body-gray);
+	padding-bottom: 100px;
+	width: 100%;
+	background-color: var(--body-gray);
+	display: flex;
+	justify-content: center;
 }
 
 #location-text-div::before {
 	z-index:-1;
     transform: skewX(-20deg);
     transform-origin:0 0;
-}
-
-#location-div {
-	height: 375px;
 }
 
 #services-section {

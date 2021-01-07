@@ -53,8 +53,8 @@ $errorInputCSS = ' style="border: 1px solid red; border-radius: 3px; outline-col
 	</li>
 	<li>
 		<div>
-			<img src="images/icons/social_icon.png" alt="Social Media Icon" class="contact-icons"/>
-			<p><a href="https://www.facebook.com/VikingHillLandscapingLLC/">Facebook</a></p>
+			<a href="https://www.facebook.com/VikingHillLandscapingLLC/"><img src="images/logos/facebook-logo-blue.png" alt="Facebook Logo" class="contact-icons"/></a>
+            <a href="https://www.linkedin.com/in/dane-tolstrup-72308519a/"><img src="images/logos/linkedin-logo-blue.png" alt="LinkedIn Logo" class="contact-icons"/></a>
 		</div>
 	</li>
 </ul>
