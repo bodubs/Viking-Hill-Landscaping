@@ -457,6 +457,7 @@ footer ul {
 	justify-content: center;
 	align-items: center;
 	height: 500px;
+	margin-bottom: 20px;
 
 }
 
@@ -472,6 +473,34 @@ footer ul {
 	display: block;
 	margin: auto;
 }
+
+.thumbnail-track{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thumbnail{
+    margin: 0 5px;
+    height: 175px;
+}
+
+.thumbnail a{
+    cursor: pointer;
+}
+
+.thumbnail.selected{
+    border-bottom: 10px solid var(--secondary-color);
+}
+.thumbnail img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
 
 .carousel-arrow{
 	cursor: pointer;
@@ -704,4 +733,10 @@ footer ul {
 
 
 
+}
+
+@media screen and (max-width: 700px){
+	.thumbnail-track{
+        display: none;
+    }
 }

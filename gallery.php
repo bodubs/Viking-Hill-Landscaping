@@ -21,6 +21,21 @@ include "top.php"
             <div class="carousel-arrow" id="arrow-right"><i class="fas fa-chevron-right"></i></div>
         </div>  
 
+        <div class="thumbnail-track">
+            <div class="thumbnail">
+                <a onclick="currentSlide(1)"><img src="images/picture1.jpg" alt=""></a>
+            </div>
+            <div class="thumbnail">
+                <a onclick="currentSlide(2)"><img src="images/picture2.jpg" alt=""></a>
+            </div>
+            <div class="thumbnail">
+                <a onclick="currentSlide(3)"><img src="images/leaf-cleanup.jpeg" alt=""></a>
+            </div>
+            <div class="thumbnail">
+                <a onclick="currentSlide(4)"><img src="images/leaf-cleanup2.jpeg" alt=""></a>
+            </div>
+        </div>
+
     </div>
 
 </section>
@@ -29,6 +44,9 @@ include "top.php"
     var slideIndex = 1;
 
     showSlides(slideIndex);
+    updateThumbnails();
+    
+
     
     function showSlides(n){
         var i;
@@ -44,14 +62,28 @@ include "top.php"
 
     function currentSlide(n) {
         showSlides(slideIndex = n);
+        updateThumbnails();
     }
 
+    function updateThumbnails() {
+        const thumbnails = document.getElementsByClassName("thumbnail");
+
+        for (var i = 0; i < thumbnails.length; i++){
+            if(thumbnails[i].classList.contains("selected")){
+                thumbnails[i].classList.remove("selected");
+            }
+        }
+
+        thumbnails[slideIndex-1].classList.add("selected");
+    }
     document.getElementById("arrow-right").addEventListener("click", () => {
         showSlides(slideIndex += 1);
     })
     document.getElementById("arrow-left").addEventListener("click", () => {
         showSlides(slideIndex -= 1);
     })
+
+
 </script>
 
 <?php
