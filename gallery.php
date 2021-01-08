@@ -78,9 +78,11 @@ include "top.php"
     }
     document.getElementById("arrow-right").addEventListener("click", () => {
         showSlides(slideIndex += 1);
+        updateThumbnails();
     })
     document.getElementById("arrow-left").addEventListener("click", () => {
         showSlides(slideIndex -= 1);
+        updateThumbnails();
     })
 
 
