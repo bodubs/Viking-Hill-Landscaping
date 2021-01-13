@@ -30,7 +30,6 @@
 				<ul>
 					<li><a href="gallery.php">Gallery</a></li>
 					<li><a href="contact.php">Contact</a></li>
-					<!-- <li><a class="fb-logo"><i class="fab fa-facebook"></i></a></li> -->
 				</ul>
 			</nav>
 
@@ -38,9 +37,7 @@
 			<ul class="drop-down-menu">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="clients.php">Clients</a></li>
-                    <li><a href="projects.php">Projects</a></li>
-                    <li><a href="awards.php">Awards</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
                     <li><a href="contact.php">Contact</a></li>
             </ul>
 

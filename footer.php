@@ -13,22 +13,13 @@
 			</ul>
 		</div>
 		<div>
-			<!-- <ul id="footer-services-list">
-				<li>Mowing</li>
-				<li>Spring/Fall Cleanups</li>
-				<li>Mulch</li>
-				<li>Pruning</li>
-				<li>Planting</li>
-				<li>Snow Plowing</li>
-			</ul>
-		</div> -->
-		<div>
+
+		<div class="socials">
 			<p>Follow Us on Social Media!</p><br>
 			<a href="https://www.facebook.com/VikingHillLandscapingLLC/"><img src="images/logos/facebook_logo.png" alt="Facebook Logo" class="social-logos" /></a>
 			<a href="https://www.linkedin.com/in/dane-tolstrup-72308519a/"><img src="images/logos/linkedin-logo.png" alt="LinkedIn Logo" class="social-logos"/></a>
 		</div>
 	</footer>
-	<!-- <script src="app.js"></script> -->
 	<script>
 		document.querySelector(".dd-more-btn").addEventListener("click", () => {
 			document.querySelector(".drop-down-menu").classList.toggle("show");
