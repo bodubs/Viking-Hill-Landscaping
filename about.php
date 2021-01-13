@@ -11,7 +11,7 @@ include 'top.php';
 
 		<div class="bio-info-container">
 			<p>Viking Hill Landscaping is a full service landscaping company located in Ipswich, MA.
-			With over 15 years of combined experience, our crew is committed to providing our customers
+			With over 20 years of combined experience, our crew is committed to providing our customers
 			with top notch service in any and all of the four seasons. We are fully insured and offer free 
 			estimates upon request. <a href="tel:978-807-8277"><strong>If you have a reason, call us this season!</strong></a>
 			</p>

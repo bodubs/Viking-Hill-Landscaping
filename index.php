@@ -3,7 +3,7 @@ include 'top.php';
 ?>
 
 <section class="showcase">
-	<h1>40 Years Combined Experience<br>Serving North Shore Massachusetts</h1>
+	<h1>20 Years Combined Experience<br>Serving the North Shore</h1>
 </section>
 
 <!-- <section id="location">
