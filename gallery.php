@@ -50,43 +50,43 @@ include "top.php"
 
         <div class="caption-container">
             <div class="caption">
-                <p>Leaf blown patio</p>
+                <p>Stone Patio</p>
             </div>
             <div class="caption">
-                <p>Post fall cleanup</p>
+                <p>Results of a Fall Cleanup</p>
             </div>
             <div class="caption">
-                <p>Veteran employee John "Tsunami" Tucker blowing leaves</p>
+                <p>Fall Cleanup in Progress</p>
             </div>
             <div class="caption">
-                <p>All in a days work</p>
+                <p>Fall Cleanup in Progress</p>
             </div>
             <div class="caption">
-                <p>Leaf cleanup on a yard</p>
+                <p>Fall Cleanup in Progress</p>
             </div>
             <div class="caption">
-                <p>Pine needles can are pesty little buggers</p>
+                <p>Fall Cleanup in Progress</p>
             </div>
             <div class="caption">
-                <p>Fall clean up on a lawn then freshly mowed</p>            
+                <p>Results of a Fall Cleanup and a Mow</p>            
             </div>
             <div class="caption">
-                <p>"Tsunami" John standing in a pile of leaves</p>
+                <p>Fall Cleanup in Progress</p>
             </div>
             <div class="caption">
-                <p>Spotless</p>
+                <p>Brick patio</p>
             </div>
             <div class="caption">
-                <p>Spotless, too</p>            
+                <p>Grey Stone Patio</p>            
             </div>
             <div class="caption">
-                <p>Part-time arborists</p>            
+                <p>Tree-Removal in Progress</p>            
             </div>
             <div class="caption">
-                <p>That leaf didn't never stood a chance</p>
+                <p>Cleaning and Putting the Finishing touches on a Grey Stone Walk-way</p>
             </div>
             <div class="caption">
-                <p>Autumnal Carnage</p>
+                <p>Fall Cleanup in Progress</p>
             </div>
 
         </div>

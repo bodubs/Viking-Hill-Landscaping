@@ -730,7 +730,7 @@ footer ul {
 	}
 
 	.drop-down-menu li:hover{
-		background-color: #808080;
+		background-color: var(--secondary-color);
 	}
 
 	.drop-down-menu li a{
@@ -738,7 +738,7 @@ footer ul {
 		width: 100%;
 		height: 100%;
 		padding: 20px;
-		color: #000000;
+		color: var(--secondary-color);
 	}
 
 	.drop-down-menu li a:hover{
@@ -787,7 +787,19 @@ footer ul {
 	#arrow-left{
 		left: -30px;
 	}
+
+	#footer-break {
+		display: none;
+	}
 	
+	footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.caption-container {
+		text-align: center;
+	}
 
 
 }
