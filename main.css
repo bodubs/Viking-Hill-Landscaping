@@ -788,6 +788,11 @@ footer ul {
 		left: -30px;
 	}
 
+	#services-container {
+		width: 85%;
+	}
+
+
 	#footer-break {
 		display: none;
 	}
@@ -800,6 +805,8 @@ footer ul {
 	.caption-container {
 		text-align: center;
 	}
+
+
 
 
 }
