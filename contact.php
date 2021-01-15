@@ -118,14 +118,13 @@ if (isset($_POST['btnSendMsg'])) {
         
         $mailMessage = "New Message from Client:
 
-        				Name: " . $name . 
-        				"Email: " . $email .
-        				"Phone: " . $phone . "
+Name: " . $name . "
+Email: " . $email . "
+Phone: " . $phone . "
 
-        				Message: 
-        				" . $message;
+" . $message;
         
-        $to = 'bowarren00@gmail.com';
+        $to = 'vikinghillllc@gmail.com';
         $cc = '';
         $bcc = '';
         
@@ -134,7 +133,7 @@ if (isset($_POST['btnSendMsg'])) {
         $subject = 'New Message From Client';
 
 
-        mail('bowarren00@gmail.com', "New Email from Client", $mailMessage);
+        mail('vikinghillllc@gmail.com', "New Email from Client", $mailMessage);
 
 
         $dataEntered = true;
